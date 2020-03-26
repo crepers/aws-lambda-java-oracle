@@ -12,7 +12,7 @@ public class HelloLambda  implements RequestHandler<Object, String> {
 
 	@Override
 	public String handleRequest(Object input, Context context) {
-		String input; 	// for codeguru test
+		//String input; 	// for codeguru test
 		
 		// System.out: One log statement but with a line break (AWS Lambda writes two events to CloudWatch).
 		System.out.println("log data from stdout \n this is continuation of system.out");
